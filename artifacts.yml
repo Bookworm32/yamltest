@@ -1,0 +1,21 @@
+version: 1.0.0-SNAPSHOT
+
+tech_core:
+  name: Технологическое ядро
+  distributions:
+    #Технологическое ядро
+    - url: http://ya.ru/CI00868771_ekpit-D-26.003.37-distrib.zip
+      path: Core/3_CrossCore/ekpiteip
+      modules:
+        - module_id: ekpiteip
+          artifact_id: ekpiteip-26.003.37.war
+          human_name: ЕКПиТ
+          description: ЕКПиТ
+
+    - url: http://ya.ru/CI00870487_mdmp-dpl-server-D-26.000.72-distrib.zip
+      path: Core/3_CrossCore/ekpiteip
+      modules:
+        - module_id: mdmp-dpl-server
+          artifact_id: mdmp-dpl-server-26.000.72.war
+          human_name: РСПиТ
+          description: РСПиТ
